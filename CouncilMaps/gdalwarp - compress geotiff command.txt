@@ -1,0 +1,5 @@
+gdalwarp "20mph speed limit plans for Firth Park_geo.tif" "Firth Park geo compressed.tif" -co COMPRESS=DEFLATE -co PREDICTOR=2
+
+gdalwarp "20mph speed limit plans for Darnall-31 geo.tif" "Darnall geo compressed.tif" -co COMPRESS=DEFLATE -co PREDICTOR=2
+
+gdalwarp "20mph speed limit plans for Gleadless Valley geo.tif" "Gleadless Valley geo compressed.tif" -co COMPRESS=DEFLATE -co PREDICTOR=2
