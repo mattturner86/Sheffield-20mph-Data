@@ -112,6 +112,21 @@
         </layer-tree-layer>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="Not digitised">
           <customproperties/>
+          <layer-tree-layer id="Wincobank_geo_compressed_8a074a8c_6060_40fb_b993_150a9e3e1cec" checked="Qt::Checked" expanded="1" name="Wincobank geo compressed" source="../CouncilMaps/Wincobank geo compressed.tif" providerKey="gdal">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer id="Sharrow_Vale_geo_compressed_fa91654a_6cf7_4787_a721_33c8b27a6399" checked="Qt::Checked" expanded="1" name="Sharrow Vale geo compressed" source="../CouncilMaps/Sharrow Vale geo compressed.tif" providerKey="gdal">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer id="Hurlfield_geo_compressed_e67739d2_d68f_4470_9f31_02f56a6ccf0b" checked="Qt::Checked" expanded="1" name="Hurlfield geo compressed" source="../CouncilMaps/Hurlfield geo compressed.tif" providerKey="gdal">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer id="Hillsborough_geo_compressed_63280254_5f33_4e6e_9dde_fcf07221c34b" checked="Qt::Checked" expanded="0" name="Hillsborough geo compressed" source="../CouncilMaps/Hillsborough geo compressed.tif" providerKey="gdal">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer id="Fox_Hill_geo_compressed_18bfd7c2_acf3_4461_8a12_dbfae08ce8ae" checked="Qt::Checked" expanded="1" name="Fox Hill geo compressed" source="../CouncilMaps/Fox Hill geo compressed.tif" providerKey="gdal">
+            <customproperties/>
+          </layer-tree-layer>
         </layer-tree-group>
       </layer-tree-group>
     </layer-tree-group>
@@ -183,6 +198,11 @@
       <item>London_Road_geo_compressed20161203145803930</item>
       <item>Longley_geo_compressed20161203145803938</item>
       <item>Southey_Green_geo_compressed20161203145803945</item>
+      <item>Fox_Hill_geo_compressed_18bfd7c2_acf3_4461_8a12_dbfae08ce8ae</item>
+      <item>Hillsborough_geo_compressed_63280254_5f33_4e6e_9dde_fcf07221c34b</item>
+      <item>Hurlfield_geo_compressed_e67739d2_d68f_4470_9f31_02f56a6ccf0b</item>
+      <item>Sharrow_Vale_geo_compressed_fa91654a_6cf7_4787_a721_33c8b27a6399</item>
+      <item>Wincobank_geo_compressed_8a074a8c_6060_40fb_b993_150a9e3e1cec</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings tolerance="0" type="1" enabled="0" intersection-snapping="0" mode="1" unit="2">
@@ -196,10 +216,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>414191.5201630785013549</xmin>
-      <ymin>357215.50687724130693823</ymin>
-      <xmax>469810.23473208089126274</xmax>
-      <ymax>413450.35732644016388804</ymax>
+      <xmin>437539.87987479649018496</xmin>
+      <ymin>391152.60341924120439216</ymin>
+      <xmax>439006.38895034871529788</xmax>
+      <ymax>392635.35826507088495418</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -363,7 +383,33 @@
             <legendlayerfile visible="1" isInOverview="0" layerid="Gleadless_Valley_geo_compressed20161202173231926"/>
           </filegroup>
         </legendlayer>
-        <legendgroup checked="Qt::Checked" name="Not digitised" open="true"/>
+        <legendgroup checked="Qt::Checked" name="Not digitised" open="true">
+          <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Wincobank geo compressed" open="true" drawingOrder="-1">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile visible="1" isInOverview="0" layerid="Wincobank_geo_compressed_8a074a8c_6060_40fb_b993_150a9e3e1cec"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Sharrow Vale geo compressed" open="true" drawingOrder="-1">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile visible="1" isInOverview="0" layerid="Sharrow_Vale_geo_compressed_fa91654a_6cf7_4787_a721_33c8b27a6399"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Hurlfield geo compressed" open="true" drawingOrder="-1">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile visible="1" isInOverview="0" layerid="Hurlfield_geo_compressed_e67739d2_d68f_4470_9f31_02f56a6ccf0b"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Hillsborough geo compressed" open="false" drawingOrder="-1">
+            <filegroup open="false" hidden="false">
+              <legendlayerfile visible="1" isInOverview="0" layerid="Hillsborough_geo_compressed_63280254_5f33_4e6e_9dde_fcf07221c34b"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Fox Hill geo compressed" open="true" drawingOrder="-1">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile visible="1" isInOverview="0" layerid="Fox_Hill_geo_compressed_18bfd7c2_acf3_4461_8a12_dbfae08ce8ae"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
       </legendgroup>
     </legendgroup>
     <legendgroup checked="Qt::Checked" name="Background" open="true">
@@ -491,10 +537,10 @@
   <mapcanvas name="georefCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>433144.03884342755191028</xmin>
-      <ymin>386406.99641442386200652</ymin>
-      <xmax>435718.55377793847583234</xmax>
-      <ymax>389010.0314439702196978</ymax>
+      <xmin>992.38607428372938557</xmin>
+      <ymin>-1335.84980386315169198</ymin>
+      <xmax>2095.88607428372961294</xmax>
+      <ymax>-616.84980386315169198</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -762,6 +808,115 @@
           <rasterTransparency>
             <threeValuePixelList>
               <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0">
+      <extent>
+        <xmin>432965.8488816709141247</xmin>
+        <ymin>391436.49738189775962383</ymin>
+        <xmax>433913.32524238631594926</xmax>
+        <ymax>393157.50237179186660796</ymax>
+      </extent>
+      <id>Fox_Hill_geo_compressed_18bfd7c2_acf3_4461_8a12_dbfae08ce8ae</id>
+      <datasource>../CouncilMaps/Fox Hill geo compressed.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Fox Hill geo compressed</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" minx="0" maxx="0" crs="" maxy="0" miny="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" greenBand="2" alphaBand="-1" blueBand="3" opacity="1">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+              <pixelListEntry green="0" percentTransparent="100" red="0" blue="0"/>
             </threeValuePixelList>
           </rasterTransparency>
           <minMaxOrigin>
@@ -1300,6 +1455,224 @@
           </rasterTransparency>
           <minMaxOrigin>
             <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0">
+      <extent>
+        <xmin>431467.92544939328217879</xmin>
+        <ymin>389356.71221163764130324</ymin>
+        <xmax>433732.56859976699342951</xmax>
+        <ymax>391177.43028283811872825</ymax>
+      </extent>
+      <id>Hillsborough_geo_compressed_63280254_5f33_4e6e_9dde_fcf07221c34b</id>
+      <datasource>../CouncilMaps/Hillsborough geo compressed.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hillsborough geo compressed</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" minx="0" maxx="0" crs="" maxy="0" miny="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" greenBand="2" alphaBand="-1" blueBand="3" opacity="0.788">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry green="0" percentTransparent="100" red="0" blue="0"/>
+              <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0">
+      <extent>
+        <xmin>436582.14854412572458386</xmin>
+        <ymin>383322.30836600193288177</ymin>
+        <xmax>438512.06163185986224562</xmax>
+        <ymax>384965.88679870474152267</ymax>
+      </extent>
+      <id>Hurlfield_geo_compressed_e67739d2_d68f_4470_9f31_02f56a6ccf0b</id>
+      <datasource>../CouncilMaps/Hurlfield geo compressed.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hurlfield geo compressed</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" minx="0" maxx="0" crs="" maxy="0" miny="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" greenBand="2" alphaBand="4" blueBand="3" opacity="1">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
             <extent>WholeRaster</extent>
             <statAccuracy>Estimated</statAccuracy>
             <cumulativeCutLower>0.02</cumulativeCutLower>
@@ -4843,6 +5216,115 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0">
+      <extent>
+        <xmin>432762.85196282528340816</xmin>
+        <ymin>385044.89302802376914769</ymin>
+        <xmax>434303.06493157095974311</xmax>
+        <ymax>386254.635591451136861</ymax>
+      </extent>
+      <id>Sharrow_Vale_geo_compressed_fa91654a_6cf7_4787_a721_33c8b27a6399</id>
+      <datasource>../CouncilMaps/Sharrow Vale geo compressed.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Sharrow Vale geo compressed</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" minx="0" maxx="0" crs="" maxy="0" miny="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" greenBand="2" alphaBand="-1" blueBand="3" opacity="0.8">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+              <pixelListEntry green="0" percentTransparent="100" red="0" blue="0"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer type="vector" labelsEnabled="0" refreshOnNotifyMessage="" simplifyMaxScale="1" geometry="Polygon" minScale="1e+08" simplifyAlgorithm="0" styleCategories="AllStyleCategories" autoRefreshTime="0" readOnly="0" wkbType="Polygon" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" maxScale="100000" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyDrawingHints="1">
       <extent>
         <xmin>425225.39728512224974111</xmin>
@@ -6680,6 +7162,115 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="0">
+      <extent>
+        <xmin>437544.80025720753474161</xmin>
+        <ymin>391255.15681134752230719</ymin>
+        <xmax>438989.02464560914086178</xmax>
+        <ymax>392194.68614901026012376</ymax>
+      </extent>
+      <id>Wincobank_geo_compressed_8a074a8c_6060_40fb_b993_150a9e3e1cec</id>
+      <datasource>../CouncilMaps/Wincobank geo compressed.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Wincobank geo compressed</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +units=m +no_defs</proj4>
+          <srsid>2437</srsid>
+          <srid>27700</srid>
+          <authid>EPSG:27700</authid>
+          <description>OSGB 1936 / British National Grid</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>airy</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" minx="0" maxx="0" crs="" maxy="0" miny="0" minz="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" greenBand="2" alphaBand="4" blueBand="3" opacity="0.8">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry green="255" percentTransparent="100" red="255" blue="255"/>
+            </threeValuePixelList>
+          </rasterTransparency>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer refreshOnNotifyMessage="" autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" minScale="1e+08" maxScale="inf">
       <extent>
         <xmin>440761.00439528911374509</xmin>
@@ -6898,6 +7489,11 @@ def my_form_open(dialog, layer, feature):
     <layer id="London_Road_geo_compressed20161203145803930"/>
     <layer id="Longley_geo_compressed20161203145803938"/>
     <layer id="Southey_Green_geo_compressed20161203145803945"/>
+    <layer id="Fox_Hill_geo_compressed_18bfd7c2_acf3_4461_8a12_dbfae08ce8ae"/>
+    <layer id="Hillsborough_geo_compressed_63280254_5f33_4e6e_9dde_fcf07221c34b"/>
+    <layer id="Hurlfield_geo_compressed_e67739d2_d68f_4470_9f31_02f56a6ccf0b"/>
+    <layer id="Sharrow_Vale_geo_compressed_fa91654a_6cf7_4787_a721_33c8b27a6399"/>
+    <layer id="Wincobank_geo_compressed_8a074a8c_6060_40fb_b993_150a9e3e1cec"/>
   </layerorder>
   <properties>
     <DefaultStyles>
