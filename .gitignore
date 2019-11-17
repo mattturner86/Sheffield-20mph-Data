@@ -2,6 +2,10 @@
 # Project Specific
 # =========================
 
+#Geopackage temporary files
+*.gpkg-shm
+*.gpkg-wal
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
